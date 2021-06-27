@@ -1,0 +1,40 @@
+.productList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.empty-page {
+  font-size: 1.2rem;
+  margin: 30px;
+}
+
+.cart-Header {
+  display: flex;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.cartPage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalCard {
+  width: 30%;
+  height: 30%;
+  max-width: 500px;
+}
+
+.totalItems {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+.delivery {
+  color: green;
+}
